@@ -42,7 +42,7 @@ nav ul li a {
     font-weight: bold;
 }
 nav ul li a:hover{
-    color: #ff5722;
+    color: #ee4e22;
     /* border-radius: 15px 15px 15px 15px ;
     transition: background-color 0.8ms;
     cursor: pointer; */
@@ -65,4 +65,31 @@ nav ul li a:hover{
 }
 .intro{
     z-index: 2;
+    text-align: center;
+    color: #fff;
+}
+.intro h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    /* animation: fadeIn 2s ease; acho que esse é a intro feia */
+}
+.intro p {
+    font-size: 28px;
+    margin-bottom: 20px;
+    /* animation: fadeIn 2s ease 1s; acho que esse é tbm */
+}
+.cta {
+    padding: 15px 30px;
+    background-color: #ee4e22;
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+}
+.cta:hover {
+    background-color: #c73f15;
+}
+.content{
+    padding: 100px 20px;
+    text-align: center;
 }
